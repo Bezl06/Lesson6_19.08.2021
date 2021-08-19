@@ -29,6 +29,7 @@ namespace Lesson6
             this.maxSpeed = maxSpeed;
             this.color = color;
             this.name = name;
+            speed = 0;
         }
         public override string ToString() => $"Name : {name} , Color : {color}\nSpeed : {speed} , MaxSpeed : {maxSpeed} ";
     }
